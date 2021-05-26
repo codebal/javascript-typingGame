@@ -62,7 +62,7 @@ Typing Game
 - src/utils/commonUtils.ts
 
 ## entry
-- src/index.js
+- src/index.ts
 
 ## script
 - test 
