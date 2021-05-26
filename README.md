@@ -61,14 +61,20 @@ Typing Game
 - router() 함수
 - src/utils/commonUtils.ts
 
+## entry
+- src/index.js
+
 ## script
-- test : 유닛테스트
-- build : 빌드
+- test 
+    - jest unit test
+- build
+    - webpack 빌드
     - output 경로: build
 - start
     - webpack-dev-server 실행
+    - http://localhost:9000
 
-## test
+## unit test
 - jest
 - src/@test/test.ts
 - 테스트내용
