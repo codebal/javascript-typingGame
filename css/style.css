@@ -1,0 +1,70 @@
+.box { width: 500px; }
+
+.box div {
+    text-align: center;
+    /* border: solid 1px #cccccc; */
+    line-height: 30px;
+}
+
+.typing .typingInput {
+    border-radius: 15px;
+    background: #659fcf;
+    padding: 20px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    font-size: 30px;
+    color: #ffffff;
+    margin: 10px 0 10px 0;
+}
+
+.typing .subject { 
+    font-size: 40px; 
+    padding:20px 0 20px 0;
+    font-weight: bold;
+}
+
+.typing .startBtn {
+    background: #659fcf;
+    width: 100px;
+    height: 30px;
+    color: #ffffff;
+    border: none;
+}
+
+.typing .monitor { 
+    line-height: 
+    30px; height: 30px; 
+}
+.typing .monitor div { border:none }
+.typing .monitor .left { float: left; }
+.typing .monitor .right { float: right; }
+
+.result .subject { 
+    font-size: 20px; 
+    padding:20px 0 20px 0;
+    font-weight: bold;
+}
+
+.result .score { 
+    font-size: 35px; 
+    height: 50px;
+    font-weight: bold;
+}
+
+.result .avgTime { 
+    font-size: 20px; 
+}
+
+.result .btnArea {
+    padding-top: 30px;
+}
+
+.result .restartBtn {
+    background: #659fcf;
+    width: 150px;
+    height: 30px;
+    color: #ffffff;
+    border: none;
+}
