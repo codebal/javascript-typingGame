@@ -18,7 +18,7 @@ test("initGameData game size 12", () => {
 test("getTypingInfo(5) is not null", () => {
     initGameData().then(()=>{
         const typingInfo: TypingInfo = getTypingInfo(5)
-        expect(typingInfo).not.toBeNull()
+        expect(typingInfo).not.toBeNull() 
     })
 });
 
